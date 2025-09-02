@@ -1,0 +1,102 @@
+#list --> array
+data_list = ['ucup', 'otong', 'dudung']
+print(data_list[0])
+#set-> tidak berurutan, beruah, tidak di duplikat
+geme_azka = {"valorant", "delta", "roblok", "poin blank"}
+geme_zaky = {"minicraf", "roblox"}
+geme_azka.add('minecraf')
+geme_zaky.add('delta')
+geme_azka.remove('valorant')
+
+print("geme azka", geme_azka )
+print("geme zaky", geme_zaky)
+
+
+geme_gabungan = geme_azka | geme_azka # | -> (or) atau
+print("daftar geme:", geme_gabungan)
+
+# for (loop) untuk isi item dari set
+for geme in geme_gabungan:
+    print(geme)
+
+print('----> transfer data',geme,'ke ps7')
+
+# dictionery (dict) -> {key:value / {kunci:isi}
+#-> beruruta, berubah, tidk di duplikat
+
+kamus_anime = {
+    "one_piece": "monkey D luffy ",
+    "demon_slayer": "tanjiro",
+    "waifu": {
+    "one_piece": "big mom",
+    "demon_slayer": "nezuko",}
+}
+print("kamus anime:", kamus_anime)
+print("mc demon slayer:", kamus_anime["demon_slayer"])
+print("waifu one piece:", kamus_anime["waifu"]["one_piece"])
+
+
+#nambah item bru  dari dictinery
+kamus_anime["naruto"] = "madara"
+print("mc naruto:", kamus_anime["naruto"])
+#mengubah item dari dictimory
+kamus_anime["demon_slayer"] = "zenitsu"
+#menghapus item dari dictimory
+del(kamus_anime['demon_slayer'])
+print("kamus anime terbaru:",kamus_anime)
+
+# apa itu dictionery
+
+umair ={
+    "umur" : 15,
+    "asal" : "bekasi",
+    "kelas" : " 10 a"
+}
+# tidak boleh bikin variabel yg sama
+#oprai pda dictionery
+# 1. mengakses nilai
+print(umair["asal"])
+# 2. MENAMBAHKAN NILAI
+umair["berat_badan"] =  63
+print(umair)
+# 3. mengubah nilai
+umair["berat_badan"] =  51
+print(umair)
+# 4. menghapus nilai
+del(umair['berat_badan'])
+print(umair)  # del untuk memghapus
+#
+print("nama" in umair)
+# mendapat kan semua key dan values nya
+# cara ngecek key ada apa aja
+print(umair.keys())
+print(umair.values())
+
+# looping
+for key in umair:
+    print(key)
+for value in umair.values():
+    print(value)
+#biar bisa dua dua nya
+for key, value in umair.items():
+    print(f"{key} ---------> {value}")
+
+# nested dictionery
+kelas = {
+    "siswa1": {
+        "nama" : "umair",
+        "umur" : "21",
+        "asal" : "bekasi",
+        "hobi" : "main bola"
+    
+    },
+    "siswa2": {
+        "nama" : "rozak",
+        "umur" : "20",
+        "asal" : "jawa",
+        "hobi" : "mancing"
+    }
+}
+print(kelas["siswa1"])
+print(kelas["siswa2"])
+

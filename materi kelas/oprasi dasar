@@ -1,0 +1,26 @@
+#=========tugas========
+# daftar buah kamu :
+# 1. nangka
+# 2. jambu
+# 3. mangga
+# 4. nanas
+# 5. leci
+
+list_buah = []
+
+buah1 = input("masukan buah 1 :")
+buah2 = input("masukan buah 2 :")
+buah3 = input("masukan buah 3 :")
+buah4 = input("masukan buah 4 :")
+buah5 = input("masukan buah 5 :")
+
+list_buah.append(buah1)
+list_buah.append(buah2)
+list_buah.append(buah3)
+list_buah.append(buah4)
+list_buah.append(buah5)
+
+print(list_buah)
+
+for item in list_buah:
+    print(item)

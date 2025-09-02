@@ -1,0 +1,36 @@
+# tugas pertama
+# tugas (list)
+print("====tugas list====")
+jadwal_piket_hari_ini = ['1.rozak', '2.agus', '3.ari']
+print("jadwal piket hari ini")
+for i in jadwal_piket_hari_ini:
+    print(f"-{i}")
+
+# tugas (tuple) 2
+daftar_rukun_islam = ('syahadat', 'shalat', 'zakat', 'puasa', 'haji')
+print("----->DAFTAR RUKUN ISLAM<-----")
+for i in range (len(daftar_rukun_islam)):
+    print(f"{i + 1}. {daftar_rukun_islam[i]}")
+# len (ukur panjang)
+# range ()
+
+# tugas 3 (set)
+kitab_pelajaran = {'kitab tajwid', 'kitab fiqih', 'kitab aqidah'}
+print("------->daftar kitab<-------")
+for i in kitab_pelajaran:
+    print("->", i)
+
+# tugas 4 (dictionery)
+print("---->dictionery<-----")
+
+biodata = {
+    "nama" : "umair",
+    "umur" : "15",
+    "asal" : "bekasi",
+    "kelas" : "10 A",
+    "hafalan" : "10 juz"
+}
+print("boiodata santri :")
+for keys, valeu in biodata. items():
+    print(f"{keys} -> {valeu}")
+

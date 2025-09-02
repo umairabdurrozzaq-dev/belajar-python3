@@ -1,0 +1,47 @@
+# soal 1
+nama = input(" nama lengkap: ")
+umur = input(" umur: ")
+kelas = input(" kelas: ")
+cita_cita = input(" cita_cita: ")
+hobi = input(" hobi favorit: ")
+waktu_belajar = input(" kamu lebih suka belajar pagi atau malam: ")
+
+#soal 2
+(print("1 .wibu "))
+(print("2. gemer "))
+(print("3. k-popers "))
+(print("4. anak konten "))
+(print("5. anak nongki "))
+ 
+tipe = int(input("masukan kamu /n pilih nomor berapa:"))
+
+#soal 3
+
+if tipe == 2:
+    input("geme favorit mu apa :")
+    print("Wih, kamu pasti jago main ML sambil ngoding. GG gaming! ")
+elif tipe == 3:
+    input("Siapa bias kamu :")
+    print("wih, bias kamu ganteng banget")
+elif tipe == 4:
+    input("Platform favorit kamu? TikTok? YouTube: ")
+    print("wih, pasti kontenmu seru seru")
+elif tipe == 5:
+    input("Nongkrong paling sering di mana : ")
+    print("di bekasi")
+elif tipe == 1:
+    input("Siapa waifu atau husbando kamu : ")
+    print("wih, pasti kamu puya waifu")
+#soal 4
+print("fun chek")
+
+
+soal = input("teman di sebelah mu bau ya :")
+
+if (soal == "ya"):
+    print("bau banget cuk")
+
+else:
+    print("bagus lah kamu gk bau")
+
+print("====selesai====")
